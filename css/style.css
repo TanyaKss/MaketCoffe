@@ -31,6 +31,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  margin: 0 70px;
 }
 .header__list {
 display:flex;
@@ -77,6 +78,7 @@ margin-right: 80px;
   position: relative;
   color: white;
   margin: -38px auto;
+  text-shadow: 3px 4px 5px rgb(173, 173, 173); 
 }
 .img {
   display: flex;
@@ -98,3 +100,4 @@ margin-right: 80px;
   align-items:center;
   position: relative;
   margin-left: -220px;
+}
