@@ -132,3 +132,9 @@ filter: blur(200px);
   background: #219C6B;
   filter: blur(200px);
   }
+  .background {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  } 
