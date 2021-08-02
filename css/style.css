@@ -58,20 +58,43 @@ margin-right: 80px;
   color: white;
 }
 .title {
-  display: flex;
+  display:flex;
   flex-direction: column;
-  align-items: center;
   position: relative;
   font-size: 90px;
   font-weight: bold;
-  margin-top: 49px;
+  margin-top: 38px;
 }
+
 .title__coffee {
-  position: absolute;
+  display: block;
+  position: relative;
   color:#00623B;
+  margin: 0 auto;
 }
 .title__moods {
-  position: absolute;
-  top: 85px;
+  display: block;
+  position: relative;
   color: white;
+  margin: -38px auto;
 }
+.img {
+  display: flex;
+  justify-content:center;
+  position: relative;
+  margin:0 0 0 27px;
+}
+.img__cups {
+  position: relative;
+}
+.img__c2 {
+  display: flex;
+  align-items:flex-end;
+  position: relative;
+  margin-right: -120px;
+}
+.img__c1 {
+  display: flex;
+  align-items:center;
+  position: relative;
+  margin-left: -220px;
