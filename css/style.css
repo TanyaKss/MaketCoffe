@@ -21,6 +21,7 @@ body {
   background-color: #D4EAE2;
   font-family: 'Manrope';
   font-style: normal;
+  position: relative;
 }
 .wrapper {
   max-width: 1152px;
@@ -31,17 +32,23 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin: 0 70px;
+  margin: 45px 70px;
 }
 .header__list {
 display:flex;
 flex-wrap: wrap;
 }
-
 .header__item {
 display:flex;
 flex-wrap: wrap;
 margin-right: 80px;
+}
+.header__link {
+  text-decoration: none;
+  color: black;
+}
+.header__link:hover {
+  text-decoration: underline;
 }
 .header__item:last-child {
   margin-right: 0;
@@ -53,6 +60,7 @@ margin-right: 80px;
   width: 93px;
   height: 35px;
   border: none;
+  cursor: pointer;
 }
 .header__button:hover {
   background-color: #00b16a;
@@ -64,7 +72,8 @@ margin-right: 80px;
   position: relative;
   font-size: 90px;
   font-weight: bold;
-  margin-top: 38px;
+  margin-top: 49px;
+  z-index: 1;
 }
 
 .title__coffee {
@@ -72,32 +81,54 @@ margin-right: 80px;
   position: relative;
   color:#00623B;
   margin: 0 auto;
+  text-shadow: 3px 4px 5px rgb(151, 150, 150);
 }
 .title__moods {
   display: block;
   position: relative;
   color: white;
   margin: -38px auto;
-  text-shadow: 3px 4px 5px rgb(173, 173, 173); 
+  text-shadow: 3px 4px 5px rgb(151, 150, 150); 
 }
 .img {
   display: flex;
   justify-content:center;
   position: relative;
-  margin:0 0 0 27px;
+  margin:0 0 0 5px;
 }
 .img__cups {
   position: relative;
+  z-index: 1;
 }
 .img__c2 {
   display: flex;
   align-items:flex-end;
   position: relative;
-  margin-right: -120px;
+  margin-right: -40px;
+  z-index: 1;
 }
 .img__c1 {
   display: flex;
   align-items:center;
   position: relative;
-  margin-left: -220px;
+  margin-left: -70px;
 }
+.box-shadow-right{
+position: fixed;
+width: 321px;
+height: 321px;
+left: 937px;
+top: 50px;
+border-radius: 50%;
+background: #219C6B;
+filter: blur(200px);
+}
+.box-shadow-left{
+  position: fixed;
+  width: 321px;
+  height: 321px;
+  left: 72px;
+  top: 528px;
+  background: #219C6B;
+  filter: blur(200px);
+  }
