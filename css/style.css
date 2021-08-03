@@ -125,21 +125,21 @@ margin-right: 80px;
   position: fixed;
   width: 350px;
   height: 350px;
-  right: 0;
+  right: 10%;
   bottom: 25%;
   border-radius: 50%;
   background: #219c6b;
-  filter: blur( 200px);
+  filter: blur(300px);
   
 }
 .box-shadow-left {
   position: fixed;
   width: 350px;
   height: 350px;
-  left: 7%;
+  left: 17%;
   bottom: -15%;
   background: #219c6b;
-  filter: blur(200px);
+  filter: blur(300px);
 }
 .background {
   position: fixed;
@@ -147,9 +147,8 @@ margin-right: 80px;
   width: 100%;
   left: 0;
 }
-/*.box-shadow {
+.box-shadow {
   position: fixed;
   width: 100%;
   max-width: 1152px;
-} */
-
+} 
