@@ -21,7 +21,6 @@ body {
   background-color: #D4EAE2;
   font-family: 'Manrope';
   font-style: normal;
-
 }
 .wrapper {
   max-width: 1152px;
@@ -122,24 +121,24 @@ margin-right: 80px;
   z-index: 1;
 }
 .box-shadow-right {
-  position: fixed;
+  position: absolute;
   width: 350px;
   height: 350px;
-  right: 10%;
+  right: 0;
   bottom: 25%;
   border-radius: 50%;
   background: #219c6b;
-  filter: blur(300px);
+  filter: blur(200px);
   
 }
 .box-shadow-left {
-  position: fixed;
+  position: absolute;
   width: 350px;
   height: 350px;
-  left: 17%;
   bottom: -15%;
+  border-radius: 50%;
   background: #219c6b;
-  filter: blur(300px);
+  filter: blur(200px);
 }
 .background {
   position: fixed;
@@ -148,7 +147,14 @@ margin-right: 80px;
   left: 0;
 }
 .box-shadow {
+  margin: 0 auto;
   position: fixed;
+  bottom: 0;
   width: 100%;
+  left: 0;
+  right: 0;
+  height: 100%;
+  z-index: -1;
   max-width: 1152px;
-} 
+  max-height: 700px;
+}
