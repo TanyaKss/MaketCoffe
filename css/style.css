@@ -21,9 +21,10 @@ body {
   background-color: #D4EAE2;
   font-family: 'Manrope';
   font-style: normal;
-  position: relative;
+
 }
 .wrapper {
+  max-width: 1152px;
   margin: 0 auto;
   z-index: 1;
 }
@@ -100,6 +101,7 @@ margin-right: 80px;
   justify-content:center;
   position: relative;
   margin:0 0 0 5px;
+
 }
 .img__cups {
   position: relative;
@@ -117,29 +119,37 @@ margin-right: 80px;
   align-items:center;
   position: relative;
   margin-left: -70px;
+  z-index: 1;
 }
 .box-shadow-right {
   position: fixed;
   width: 350px;
   height: 350px;
-  right: 7%;
+  right: 0;
   bottom: 25%;
   border-radius: 50%;
   background: #219c6b;
-  filter: blur(250px);
+  filter: blur( 200px);
+  
 }
 .box-shadow-left {
   position: fixed;
   width: 350px;
   height: 350px;
   left: 7%;
-  bottom: -20%;
+  bottom: -15%;
   background: #219c6b;
-  filter: blur(250px);
+  filter: blur(200px);
 }
 .background {
   position: fixed;
-  width: 100%;
   bottom: -5px;
+  width: 100%;
   left: 0;
 }
+/*.box-shadow {
+  position: fixed;
+  width: 100%;
+  max-width: 1152px;
+} */
+
