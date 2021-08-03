@@ -1,25 +1,31 @@
 /* manrope-regular - latin */
 @font-face {
-  font-family: 'Manrope';
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/manrope-v4-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('../fonts/manrope-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/manrope-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/manrope-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/manrope-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/manrope-v4-latin-regular.svg#Manrope') format('svg'); /* Legacy iOS */
+  src: url("../fonts/manrope-v4-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/manrope-v4-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/manrope-v4-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/manrope-v4-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/manrope-v4-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/manrope-v4-latin-regular.svg#Manrope") format("svg"); /* Legacy iOS */
 }
 html {
   box-sizing: border-box;
 }
-*,*::before, *::after{
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 body {
-  background-color: #D4EAE2;
-  font-family: 'Manrope';
+  background-color: #d4eae2;
+  font-family: "Manrope";
   font-style: normal;
 }
 .wrapper {
@@ -33,20 +39,19 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 45px 70px;
-
 }
 .header__list {
-display:flex;
-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
-.header__logo-link img{
+.header__logo-link img {
   height: 45px;
   width: 45px;
 }
 .header__item {
-display:flex;
-flex-wrap: wrap;
-margin-right: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 80px;
 }
 .header__link {
   text-decoration: none;
@@ -59,7 +64,7 @@ margin-right: 80px;
   margin-right: 0;
 }
 .header__button {
-  background-color: #00623B;
+  background-color: #00623b;
   color: white;
   border-radius: 5px;
   width: 93px;
@@ -72,7 +77,7 @@ margin-right: 80px;
   color: white;
 }
 .title {
-  display:flex;
+  display: flex;
   flex-direction: column;
   position: relative;
   font-size: 90px;
@@ -84,7 +89,7 @@ margin-right: 80px;
 .title__coffee {
   display: block;
   position: relative;
-  color:#00623B;
+  color: #00623b;
   margin: 0 auto;
   text-shadow: 3px 4px 5px rgb(151, 150, 150);
 }
@@ -93,14 +98,13 @@ margin-right: 80px;
   position: relative;
   color: white;
   margin: -38px auto;
-  text-shadow: 3px 4px 5px rgb(151, 150, 150); 
+  text-shadow: 3px 4px 5px rgb(151, 150, 150);
 }
 .img {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   position: relative;
-  margin:0 0 0 5px;
-
+  margin: 0 0 0 5px;
 }
 .img__cups {
   position: relative;
@@ -108,14 +112,14 @@ margin-right: 80px;
 }
 .img__c2 {
   display: flex;
-  align-items:flex-end;
+  align-items: flex-end;
   position: relative;
   margin-right: -40px;
   z-index: 1;
 }
 .img__c1 {
   display: flex;
-  align-items:center;
+  align-items: center;
   position: relative;
   margin-left: -70px;
   z-index: 1;
@@ -129,7 +133,6 @@ margin-right: 80px;
   border-radius: 50%;
   background: #219c6b;
   filter: blur(200px);
-  
 }
 .box-shadow-left {
   position: absolute;
