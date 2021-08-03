@@ -120,8 +120,8 @@ margin-right: 80px;
 }
 .box-shadow-right {
   position: fixed;
-  width: 35%;
-  height: 35%;
+  width: 350px;
+  height: 350px;
   right: 7%;
   bottom: 25%;
   border-radius: 50%;
@@ -130,8 +130,8 @@ margin-right: 80px;
 }
 .box-shadow-left {
   position: fixed;
-  width: 35%;
-  height: 35%;
+  width: 350px;
+  height: 350px;
   left: 7%;
   bottom: -20%;
   background: #219c6b;
